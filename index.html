@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Online Catalogue</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="shippingdetails/shipping.html">
+    <style>
+    span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid brown;
+    background-color: #F08A5D;
+    }
+    h1 {
+    color: #B61AAE; text-align: center; font: 300; background-color: £84A9; font-family: sans-serif; font-size: !important; padding: auto;
+    }
+    h2 {
+    font-size: 30px; text-align: center; border-collapse: all;
+    }
+    p {
+    text-align: left; background-color: £DCEDC1;
+    }
+    h3 {
+    color: #0C056D;
+    }
+    li {
+    color: #3A4750;
+    }
+    input {
+    width: 25%;
+    }
+    img {
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    }
+    img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+    </style>
+  </head>
+  <body>
+    <h1> Online Store</h1>
+    <h3>Come Shop With Us. We have all the vintage cars you can dream of.</h3>
+    <nav class="navbar navbar-£FC85AE">
+      <a class="navbar-brand" href="JHG.html"> Home </a>
+      <a class="navbar-brand" href="Gallery.html"> About Us</a>
+      <a class="navbar-brand" href="productinfo.html">Shipping Details </a>
+      <a class="navbar-brand" href="mailto:hyperion@gmail.com"> Contact Us </a>
+      <form class="form-inline">
+        <input class="form-control mr-s-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-s-0" type="submit">Search</button>
+      </form>
+    </nav>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th colspan="2" id="headinggallery"> Online Store Catalogue</th>
+        </tr>
+    </thead>
+      <tbody>
+        <form action="/action_page.php">
+          <label for="cars">Choose your dream car:</label>
+          <select id="cars" name="cars">
+            <option value="volvo">Ford</option>
+            <option value="saab">Edsel Ranger</option>
+            <option value="fiat">VW Beetle</option>
+            <option value="audi">Bugatti</option>
+          </select>
+          <input type="submit">
+        </form>
+        <tr>
+          <th scope="row"> Vintage Cars</th>
+          <td><img src="https://cdn.pixabay.com/photo/2014/10/22/17/22/ford-498244__240.jpg" alt="responsive image example" class="img-thumbnail">Ford car</td>
+          <td><img src="https://cdn.pixabay.com/photo/2014/07/13/19/45/edsel-ranger-392745__240.jpg" alt="responsive image example" class="img-thumbnail">Edsel ranger</td>
+          <td><img src="https://cdn.pixabay.com/photo/2014/07/31/00/30/vw-beetle-405876__240.jpg"alt="round image example" class ="img-thumbnail">VW Beetle</td>
+          
+          <td><img src="https://cdn.pixabay.com/photo/2013/05/20/04/57/hudson-112217__240.jpg" alt="responsive image example" class="img-thumbnail">Hudson</td>
+          <td><img src="https://cdn.pixabay.com/photo/2013/06/05/02/00/bugatti-116491__240.jpg" class ="responsive image example"><p>Bugatti</p></td>
+        </tr>
+      </tbody>
+    </table>
+    <h2><b>We would also like to hear from you.</b></h2>
+    <p>Yon can complete the form below and share with us your experience!</p>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required>
+        </div>
+        <div>
+          <label for="email">Email address (for a quicker response): </label>
+          <input id="email" name="email" type="email">
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <h3>Here's our shipping details</h3>
+    <a href="shipping.html">Our Shipping Details</a>
+    <br>
+    <form action="/action_page.php">
+      <p>For a customised service:</p>
+       <input type="radio" id="age1" name="age" value="30" align="left">
+       <label for="age1">0 - 30</label><br>
+       <input type="radio" id="age2" name="age" value="60">
+       <label for="age2">31 - 60</label><br>
+       <input type="radio" id="age3" name="age" value="100">
+       <label for="age3">61 - 100</label><br><br>
+       <input type="submit" value="Submit">
+    </form>
+    
+    <br>
+    <h5>Hear From Our Happy Customers</h5>
+    <p>Our customers has got this to say.</p>
+      <div class="container">
+       <img src="https://cdn.pixabay.com/photo/2015/11/07/11/01/couple-1030744__340.jpg" alt="couple" style="width:90px">
+       <p><span>Sean.</span> </p>
+       <p><i>"We bought a car online and just within three days it was already in our garage.Excellent customer service!</i></p>
+       <p><i>I can happily refer anyone to them"</i></p>
+       <hr>
+      <h2>My Blocks</h2>
+      <div> <span class="b">HTML</span> <span class="b">CSS</span> </div>     
+    </body>
+  </html>
