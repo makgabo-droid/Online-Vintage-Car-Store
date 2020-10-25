@@ -24,6 +24,8 @@
     }
     h2 {
     font-size: 30px; text-align: center; border-collapse: all;
+    font-style: italic;
+    font-family: sans-serif;font-stretch: initial;
     }
     p {
     text-align: left; background-color: £DCEDC1;
@@ -40,11 +42,18 @@
     img {
     border: 1px solid skyblue;
     border-radius: 4px;
+    transition: transform .2s;
     padding: 5px;
     width: 150px;
+    transform: rotateY(180deg);
+   
     }
     img:hover {
-     transform: scaleX(-1);
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Safari 3-8 */
+    transform: scale(2.2);
+
     }
     </style>
   </head>
@@ -78,7 +87,7 @@
           </select>
           <input type="submit">
         </form>
-        <tr>
+        <div>
           <th scope="row"> Vintage Cars</th>
           <td><img src="https://cdn.pixabay.com/photo/2014/10/22/17/22/ford-498244__240.jpg" alt="responsive image example" class="img-thumbnail">Ford car</td>
           <td><img src="https://cdn.pixabay.com/photo/2014/07/13/19/45/edsel-ranger-392745__240.jpg" alt="responsive image example" class="img-thumbnail">Edsel ranger</td>
@@ -86,7 +95,7 @@
           
           <td><img src="https://cdn.pixabay.com/photo/2013/05/20/04/57/hudson-112217__240.jpg" alt="responsive image example" class="img-thumbnail">Hudson</td>
           <td><img src="https://cdn.pixabay.com/photo/2013/06/05/02/00/bugatti-116491__240.jpg" class ="responsive image example"><p>Bugatti</p></td>
-        </tr>
+        </div>
       </tbody>
     </table>
     <h2><b>We would also like to hear from you.</b></h2>
@@ -129,7 +138,7 @@
       <div class="container">
        <img src="https://cdn.pixabay.com/photo/2015/11/07/11/01/couple-1030744__340.jpg" alt="couple" style="width:90px">
        <p><span>Sean.</span> </p>
-       <p><i>"We bought a car online and just within three days it was already in our garage.Excellent customer service!I can happily refer anyone to them"</i></p>
-       <hr>     
+       <p><i>"We bought a car online and just within three days it was already in our garage.Excellent customer service!</i></p>
+       <p><i>I can happily refer anyone to them"</i></p>   
     </body>
   </html>
